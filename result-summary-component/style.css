@@ -8,6 +8,7 @@
   --gradient-royal-blue: hsl(241, 81%, 54%);
   --gradient-violet-blue: hsla(256, 72%, 46%, 1);
   --gradient-persian-blue: hsla(241, 72%, 46%, 0);
+  --gradient-persian-blue-lighter: hsla(241, 72%, 46%, 0.7);
 
   --white: hsl(0, 0%, 100%);
   --pale-blue: hsl(221, 100%, 96%);
@@ -68,8 +69,8 @@ p {
   justify-content: center;
   background: linear-gradient(
     180deg,
-    var(--gradient-light-slate-blue),
-    var(--gradient-royal-blue)
+    var(--gradient-persian-blue-lighter) 30%,
+    transparent
   );
 }
 
