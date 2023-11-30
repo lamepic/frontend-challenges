@@ -14,7 +14,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     <!-- - [Continued development](#continued-development) -->
     <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -64,6 +64,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Website - [Richard Arthur](https://www.iamarthur.web.app)
 - Frontend Mentor - [@lamepic](https://www.frontendmentor.io/profile/lamepic)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+- Thanks to - [Musread](https://github.com/Musread) for making a contribution on the repo!!!
