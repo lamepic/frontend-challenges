@@ -14,9 +14,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     <!-- - [Continued development](#continued-development) -->
     <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
@@ -46,8 +44,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 This challenge thought me how to work with some css properties i wasn't really familiar with, i had the oppotunity to use them, now i feel confident about them. But there is more to learn.
@@ -68,8 +64,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Website - [Richard Arthur](https://www.iamarthur.web.app)
 - Frontend Mentor - [@lamepic](https://www.frontendmentor.io/profile/lamepic)
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
