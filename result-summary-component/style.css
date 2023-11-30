@@ -1,0 +1,250 @@
+:root {
+  --primary-light-red: hsl(0, 100%, 67%);
+  --primary-orange-yellow: hsl(39, 100%, 56%);
+  --primary-green-teal: hsl(166, 100%, 37%);
+  --primary-cobalt-blue: hsl(234, 85%, 45%);
+
+  --gradient-light-slate-blue: hsla(252, 100%, 67%);
+  --gradient-royal-blue: hsl(241, 81%, 54%);
+  --gradient-violet-blue: hsla(256, 72%, 46%, 1);
+  --gradient-persian-blue: hsla(241, 72%, 46%, 0);
+
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-grey-blue: hsl(224, 30%, 27%);
+
+  --primary-background-light-red: hsla(0, 100%, 67%, 0.1);
+  --primary-background-orange-yellow: hsla(39, 100%, 56%, 0.1);
+  --primary-background-green-teal: hsla(166, 100%, 37%, 0.1);
+  --primary-background-cobalt-blue: hsla(234, 85%, 45%, 0.1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    var(--gradient-light-slate-blue),
+    var(--gradient-royal-blue)
+  );
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem 5rem 2.5rem 5rem;
+  color: var(--white);
+}
+
+.result p:first-child {
+  color: var(--light-lavender);
+}
+
+.result div:first-of-type {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    var(--gradient-light-slate-blue),
+    var(--gradient-royal-blue)
+  );
+}
+
+.result > div:first-of-type span {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.result > div > p {
+  font-size: 1rem;
+  color: var(--light-lavender);
+}
+
+.result div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result div:last-of-type {
+  text-align: center;
+}
+
+.result div:last-of-type h3 {
+  font-size: 1.5rem;
+}
+
+.result div:last-of-type span {
+  color: var(--light-lavender);
+}
+
+.summary {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+.summary > div {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card p:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card__score span:first-child {
+  font-weight: 700;
+  color: var(--dark-grey-blue);
+}
+
+.card__score span:last-child {
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1.3rem;
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+  width: 100%;
+  background-color: var(--dark-grey-blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--gradient-royal-blue);
+  transition: all 0.2s ease-in-out;
+}
+
+#reaction {
+  background-color: var(--primary-background-light-red);
+}
+
+#memory {
+  background-color: var(--primary-background-orange-yellow);
+}
+
+#verbal {
+  background-color: var(--primary-background-green-teal);
+}
+
+#visual {
+  background-color: var(--primary-background-cobalt-blue);
+}
+
+#reaction p:first-of-type span {
+  color: var(--primary-light-red);
+}
+
+#memory p:first-of-type span {
+  color: var(--primary-orange-yellow);
+}
+
+#verbal p:first-of-type span {
+  color: var(--primary-green-teal);
+}
+
+#visual p:first-of-type span {
+  color: var(--primary-cobalt-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+    margin-top: 5rem;
+    display: flex;
+    width: 45%;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(178, 176, 176, 0.5);
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+
+  .result {
+    flex: 0.8;
+    padding: 1.5rem 3rem;
+    justify-content: space-around;
+    border-radius: 0;
+    border-radius: 1.5rem;
+  }
+
+  .result div:first-of-type {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .result div:last-of-type h3 {
+    font-size: 1.8rem;
+  }
+
+  .summary {
+    flex: 1;
+    padding-bottom: 2.5rem;
+  }
+
+  .btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+}
