@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lamepic/frontend-challenges/tree/main/testimonial-grid-section)
-- Live Site URL: [Add live site URL here](https://lamepic.github.io/frontend-challenges/testimonial-grid-section/)
+- Solution URL: [Go to url](https://github.com/lamepic/frontend-challenges/tree/main/testimonial-grid-section)
+- Live Site URL: [Go to url](https://lamepic.github.io/frontend-challenges/testimonial-grid-section/)
 
 ## My process
 
