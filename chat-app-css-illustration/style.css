@@ -1,0 +1,39 @@
+:root {
+  --primary-violet-100: hsl(276, 100%, 81%);
+  --primary-violet-200: hsl(276, 55%, 52%);
+  --primary-violet-300: hsl(271, 15%, 43%);
+  --primary-violet-400: hsl(271, 36%, 24%);
+  --primary-gray-100: hsl(206, 6%, 79%);
+  --primary-gray-200: hsl(270, 7%, 64%);
+
+  --magenta: hsl(293, 100%, 63%);
+  --violet: hsl(264, 100%, 61%);
+
+  --secondary-white: hsl(0, 0%, 100%);
+  --secondary-gray-100: hsl(270, 20%, 96%);
+  --secondary-magenta-100: hsl(289, 100%, 72%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  background-color: var(--secondary-gray-100);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
