@@ -13,7 +13,7 @@ function App() {
     <div className="h-screen flex flex-col items-center justify-center bg-off-white font-poppins">
       <div className="bg-white card">
         <Form setResult={setResult} />
-        <div className="font-extrabold italic text-6xl">
+        <div className="font-extrabold italic text-6xl space-y-2">
           <Result text="years" value={result.years} />
           <Result text="months" value={result.months} />
           <Result text="days" value={result.days} />
