@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lamepic/frontend-challenges/tree/main/result-summary-component)
-- Live Site URL: [Add live site URL here](https://lamepic.github.io/frontend-challenges/result-summary-component/)
+- Solution URL: [Add solution URL here](https://github.com/lamepic/frontend-challenges/tree/main/frontend-mentor/result-summary-component)
+- Live Site URL: [Add live site URL here](https://result-summary-epic.surge.sh)
 
 ## My process
 
