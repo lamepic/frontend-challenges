@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Go to url](https://github.com/lamepic/frontend-challenges/tree/main/chat-app-css-illustration)
-- Live Site URL: [Go to url](https://lamepic.github.io/frontend-challenges/chat-app-css-illustration/)
+- Solution URL: [Go to url](https://github.com/lamepic/frontend-challenges/tree/main/frontend-mentor/age-calculator)
+- Live Site URL: [Go to url](https://age-calculator-epic.surge.sh/)
 
 ## My process
 
@@ -51,18 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-This challenge thought me how to work with react components and tailwind.
-
-<!-- ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
-
-<!-- ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** -->
+This challenge helped me practice working with react components and tailwind.
 
 ## Author
 
