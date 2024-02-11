@@ -295,7 +295,6 @@ input::placeholder {
     position: relative;
     gap: 0;
     height: 100vh;
-    border: 1px solid red;
     overflow: hidden;
   }
 
