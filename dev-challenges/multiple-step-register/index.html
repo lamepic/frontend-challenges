@@ -21,8 +21,8 @@
         class="absolute -bottom-80 -right-80"
         draggable="false"
       />
-      <form class="w-[30%]">
-        <!-- <div class="card flex flex-col gap-5" id="card-1">
+      <form class="card w-[30%]">
+        <!-- <div class="flex flex-col gap-5" id="card-1">
           <h1 class="text-heading">Register</h1>
           <div class="flex flex-col gap-5">
             <div class="form-group">
@@ -41,33 +41,67 @@
                 class="text-input"
               />
             </div>
-            <button id="button" class="btn block mx-auto my-4">Continue</button>
+            
           </div>
         </div> -->
-        <div class="card flex flex-col gap-5" id="card-2">
+        <!-- <div class="flex flex-col gap-5" id="card-2">
           <h1 class="text-heading">Which topics are you interested in?</h1>
           <div>
             <div class="space-y-4">
-              <label for="topics" class="flex flex-col radio-button">
+              <label for="software" class="check-button">
                 <input
                   type="checkbox"
                   value="Software Development"
-                  name="topics"
+                  name="software"
+                  id="software"
+                  class="hidden"
                 />
                 Software Development
               </label>
-              <label for="topics" class="flex flex-col radio-button">
-                <input type="checkbox" value="User Experience" name="topics" />
+              <label class="flex flex-col check-button">
+                <input
+                  type="checkbox"
+                  value="User Experience"
+                  name="user"
+                  class="hidden"
+                />
                 User Experience
               </label>
-              <label for="topics" class="flex flex-col radio-button">
-                <input type="checkbox" value="Graphic Design" name="topics" />
+              <label class="flex flex-col check-button">
+                <input
+                  type="checkbox"
+                  value="Graphic Design"
+                  name="design"
+                  class="hidden"
+                />
                 Graphic Design
               </label>
             </div>
           </div>
+        </div> -->
+        <div class="space-y-5" id="card-3">
+          <h1 class="text-heading">Summary</h1>
+          <div>
+            <div class="flex items-center gap-1">
+              <label class="text-label">Name:</label>
+              <p>Emily Johnson</p>
+            </div>
+            <div class="flex items-center gap-1">
+              <label class="text-label">Email:</label>
+              <p>email@gmail.com</p>
+            </div>
+          </div>
+          <div>
+            <p class="text-label">Topics</p>
+            <ul class="list-disc list-inside">
+              <li class="list-item">User Experience</li>
+              <li class="list-item">User Experience</li>
+            </ul>
+          </div>
         </div>
-        <!-- <div class="card" id="card-3"></div> -->
+        <button id="button" class="btn block mx-auto mt-10 mb-5">
+          Continue
+        </button>
       </form>
     </main>
     <script type="module" src="/main.js"></script>
