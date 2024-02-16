@@ -9,7 +9,7 @@
   </head>
   <body>
     <main
-      class="bg-grey-600 h-screen relative grid place-items-center overflow-hidden"
+      class="bg-grey-600 h-screen relative flex flex-col items-center justify-center overflow-hidden"
     >
       <img
         src="blur-radial.svg"
@@ -21,8 +21,8 @@
         class="absolute -bottom-80 -right-80"
         draggable="false"
       />
-      <form class="card w-[30%]">
-        <!-- <div class="flex flex-col gap-5" id="card-1">
+      <form class="card w-[60%] md:w-[50%] lg:w-[30%] z-50">
+        <div class="card-item flex flex-col gap-5 active-card" id="card-1">
           <h1 class="text-heading">Register</h1>
           <div class="flex flex-col gap-5">
             <div class="form-group">
@@ -31,6 +31,7 @@
                 name="name"
                 placeholder="enter your name"
                 class="text-input"
+                id="name"
               />
             </div>
             <div class="form-group">
@@ -39,12 +40,13 @@
                 name="email"
                 placeholder="example@gmail.com"
                 class="text-input"
+                autocomplete="none"
+                id="email"
               />
             </div>
-            
           </div>
-        </div> -->
-        <!-- <div class="flex flex-col gap-5" id="card-2">
+        </div>
+        <div class="card-item space-y-5 hidden" id="card-2">
           <h1 class="text-heading">Which topics are you interested in?</h1>
           <div>
             <div class="space-y-4">
@@ -54,7 +56,7 @@
                   value="Software Development"
                   name="software"
                   id="software"
-                  class="hidden"
+                  class="topic hidden"
                 />
                 Software Development
               </label>
@@ -63,7 +65,7 @@
                   type="checkbox"
                   value="User Experience"
                   name="user"
-                  class="hidden"
+                  class="topic hidden"
                 />
                 User Experience
               </label>
@@ -72,37 +74,46 @@
                   type="checkbox"
                   value="Graphic Design"
                   name="design"
-                  class="hidden"
+                  class="topic hidden"
                 />
                 Graphic Design
               </label>
             </div>
           </div>
-        </div> -->
-        <div class="space-y-5" id="card-3">
+        </div>
+        <div class="card-item space-y-5 hidden" id="card-3">
           <h1 class="text-heading">Summary</h1>
           <div>
-            <div class="flex items-center gap-1">
+            <div class="summary-name flex items-center gap-1">
               <label class="text-label">Name:</label>
-              <p>Emily Johnson</p>
             </div>
-            <div class="flex items-center gap-1">
+            <div class="summary-email flex items-center gap-1">
               <label class="text-label">Email:</label>
-              <p>email@gmail.com</p>
             </div>
           </div>
           <div>
             <p class="text-label">Topics</p>
-            <ul class="list-disc list-inside">
-              <li class="list-item">User Experience</li>
-              <li class="list-item">User Experience</li>
-            </ul>
+            <ul class="topic-list list-disc list-inside"></ul>
           </div>
         </div>
-        <button id="button" class="btn block mx-auto mt-10 mb-5">
+        <button id="button" class="btn block mx-auto mt-10 mb-5" type="button">
           Continue
         </button>
       </form>
+      <div class="flex items-center gap-5 mt-5">
+        <label class="text-small">Step 1 of 3</label>
+        <div class="flex items-center gap-2">
+          <p class="step-indicator active-circle">
+            <span class="inner-circle"></span>
+          </p>
+          <p class="step-indicator">
+            <span class="inner-circle"></span>
+          </p>
+          <p class="step-indicator">
+            <span class="inner-circle"></span>
+          </p>
+        </div>
+      </div>
     </main>
     <script type="module" src="/main.js"></script>
   </body>

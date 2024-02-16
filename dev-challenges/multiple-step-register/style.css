@@ -25,6 +25,10 @@
     @apply text-[0.75rem] text-grey-200;
   }
 
+  .text-small {
+    @apply text-[0.75rem] text-grey-400;
+  }
+
   .text-tab {
     @apply text-[0.875rem];
   }
@@ -36,8 +40,20 @@
   .check-button {
     @apply flex flex-row items-center gap-3 w-full p-3 border border-grey-300 rounded-xl bg-grey-400 text-grey-200 has-[:checked]:bg-purple-200 has-[:checked]:text-grey-100 pl-4 text-label cursor-pointer;
   }
+
+  .active-circle {
+    @apply bg-purple-200/50 rounded-full h-4 w-4 grid place-items-center;
+  }
+
+  .inner-circle {
+    @apply bg-purple-100 rounded-full h-2 w-2 block;
+  }
 }
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.hidden {
+  display: none;
 }
