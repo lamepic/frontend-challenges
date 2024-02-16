@@ -18,7 +18,10 @@ let activeStepIndicatorIndex = 0;
 let selectedTopics;
 
 function moveToNext() {
-  if (activeCardIndex >= 2) return;
+  if (activeCardIndex >= 2) {
+    window.alert("Success");
+    return;
+  }
 
   selectedTopics = Array.from(topics)
     .map((item) => {
