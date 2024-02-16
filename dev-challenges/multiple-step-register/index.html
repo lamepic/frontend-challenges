@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Step Register</title>
+    <link rel="stylesheet" src="style.css" />
+  </head>
+  <body>
+    <main
+      class="bg-grey-600 h-screen relative grid place-items-center overflow-hidden"
+    >
+      <img
+        src="blur-radial.svg"
+        class="absolute -top-80 -left-80"
+        draggable="false"
+      />
+      <img
+        src="blur-radial.svg"
+        class="absolute -bottom-80 -right-80"
+        draggable="false"
+      />
+      <form class="w-[30%]">
+        <!-- <div class="card flex flex-col gap-5" id="card-1">
+          <h1 class="text-heading">Register</h1>
+          <div class="flex flex-col gap-5">
+            <div class="form-group">
+              <label for="name" class="text-label">Name</label>
+              <input
+                name="name"
+                placeholder="enter your name"
+                class="text-input"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="text-label">Email</label>
+              <input
+                name="email"
+                placeholder="example@gmail.com"
+                class="text-input"
+              />
+            </div>
+            <button id="button" class="btn block mx-auto my-4">Continue</button>
+          </div>
+        </div> -->
+        <div class="card flex flex-col gap-5" id="card-2">
+          <h1 class="text-heading">Which topics are you interested in?</h1>
+          <div>
+            <div class="space-y-4">
+              <label for="topics" class="flex flex-col radio-button">
+                <input
+                  type="checkbox"
+                  value="Software Development"
+                  name="topics"
+                />
+                Software Development
+              </label>
+              <label for="topics" class="flex flex-col radio-button">
+                <input type="checkbox" value="User Experience" name="topics" />
+                User Experience
+              </label>
+              <label for="topics" class="flex flex-col radio-button">
+                <input type="checkbox" value="Graphic Design" name="topics" />
+                Graphic Design
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card" id="card-3"></div> -->
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

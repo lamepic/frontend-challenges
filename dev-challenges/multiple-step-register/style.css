@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-full py-2.5 px-10 text-white bg-gradient-to-b from-purple-100 to-purple-200 text-sm;
+  }
+
+  .card {
+    @apply p-8 rounded-xl border border-grey-300 w-full bg-grey-500 text-grey-100;
+  }
+
+  .text-input {
+    @apply border-2 border-grey-400 rounded-xl w-full bg-transparent p-2.5 placeholder:text-grey-400 px-4 outline-none;
+  }
+}
+
+@layer utilities {
+  .text-heading {
+    @apply text-[1.25rem];
+  }
+
+  .text-label {
+    @apply text-[0.75rem] text-grey-200;
+  }
+
+  .text-tab {
+    @apply text-[0.875rem];
+  }
+
+  .form-group {
+    @apply flex flex-col gap-2;
+  }
+
+  .radio-button {
+    @apply flex flex-row items-center gap-3 w-full p-3 border border-grey-300 rounded-xl bg-grey-400 text-grey-200;
+  }
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
